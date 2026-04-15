@@ -3,7 +3,7 @@
 int main()
 {
     int cor = 0, num = 0;
-    scanf("정답 입력 : %d", &cor);
+    scanf("%d", &cor);
     
     do {
         scanf("%d", &num);
