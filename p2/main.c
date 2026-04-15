@@ -23,7 +23,9 @@ int main() {
             if (numfin < numcount)
                 numfin = numcount;
         }
-        
+        else
+            numcount = 0;
+            strcount = 0;
     }
     printf("%d\n", strfin);
     printf("%d\n", numfin);
