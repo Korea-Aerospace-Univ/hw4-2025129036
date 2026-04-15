@@ -13,7 +13,7 @@ int main()
             printf("%d<?", num);
         else
             printf("%d==?", num);
-    } while ( num == cor );
+    } while ( num != cor );
     
     return 0;
 }
